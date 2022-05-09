@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+
+    <style>
+        .container {
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+
+        }
+
+        .item {
+            background-color: orange;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h2>stretch</h2>
+
+    <div class="container stretch">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+
+    <h2>center</h2>
+
+    <div class="container center">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+
+    <h2>flex-start</h2>
+
+    <div class="container flex-start">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+
+    <h2>flex-end</h2>
+
+    <div class="container flex-end">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+
+    <h2>space-between</h2>
+
+    <div class="container space-between">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+
+    <h2>space-around</h2>
+
+    <div class="container space-around">
+        <div class="item">texto pequeno</div>
+        <div class="item">texto médio que mais informações escritas</div>
+        <div class="item">texto 2 médio que mais informações escritas</div>
+        <div class="item">texto longo para dimencionar melhor o teste que estamos realizando na aula...</div>
+        <div class="item">texto 3 médio que mais informações escritas...</div>
+        <div class="item">texto 4 médio que mais informações escritas rsrsr...</div>
+        <div class="item">texto que é texto é escrito com texto...</div>
+    </div>
+</body>
+</html>
